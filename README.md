@@ -1,4 +1,9 @@
+### 简单说明
+
+JAVA写的性能与压力测试工具。目前支持MYSQL的不同连接方式的并发测试！
+
 ### 数据库
+```Java
 CREATE TABLE `TICKER_XBTUSD` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `open` double unsigned NOT NULL,
@@ -11,4 +16,7 @@ CREATE TABLE `TICKER_XBTUSD` (
   PRIMARY KEY (`id`),
   KEY `timestamp` (`timestamp`)
 ) ENGINE=MyISAM AUTO_INCREMENT=14261 DEFAULT CHARSET=utf8;
+```
+
+### 11111
 
